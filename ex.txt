@@ -1,0 +1,35 @@
+##전화번호 형식##
+
+1.앞3자리, 연결부분 - 또는 . , 중간번호는 
+\d{3}[-.]\d{3,4}[-.]\d{3,4}
+#
+010-111-3241
+010-5555-2344
+010.912.4312
+
+kim Tony
+kim.Tony
+kim tony
+
+abc
+bbc
+cbc
+dbc
+aabc
+
+abc@abc.com
+abc#abc.com
+abc@abcd.com
+abc@abc.co.kr
+abc@abc.org
+
+http://www.abc.com
+https://www.abc.com
+http://www.abc.co.kr
+https://www.abc.co.kr
+
+/abc/def/ghi/resource/image/1.png
+/aaarbbb/resource/imgage/2.png
+/a/b/resource/d/e/aaa.jpg
+
+
